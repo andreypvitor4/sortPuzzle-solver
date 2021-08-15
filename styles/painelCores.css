@@ -1,0 +1,63 @@
+.painelCores {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 700px) {
+    .painelCores {
+        top: 40px;
+    }
+}
+
+.cor {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    border: solid 2px black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cor1 {
+    background-color: aqua;
+}
+#cor2 {
+    background-color:rgb(91, 15, 163);
+}
+#cor3 {
+    background-color: yellow;
+}
+#cor4 {
+    background-color:rgb(255, 115, 0);
+}
+#cor5 {
+    background-color:rgb(85, 85, 85);
+}
+#cor6 {
+    background-color:rgb(119, 133, 195);
+}
+#cor7 {
+    background-color:green;
+}
+#cor8 {
+    background-color:red;
+}
+
+#cor9 {
+    background-color:saddlebrown;
+}
+#cor10 {
+    background-color:blue;
+}
+#cor11 {
+    background-color:lime;
+}
+#cor12 {
+    background-color:rgb(197, 116, 116);
+}
